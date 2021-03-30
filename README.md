@@ -2,6 +2,8 @@
 
 Swift Unicode Picker is a MacOS app to simplify choosing exotic operator and identifier names in Swift. 
 
+![](./Manual/Bilder/Window.tif)
+
 ## The hot key
 
 If the program is running in the background, it can be activated with the hot key ^⇧U (control-shift-U). Activating with the hot key also opens up the ability to paste back in apps.
