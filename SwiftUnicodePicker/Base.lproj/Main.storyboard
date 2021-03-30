@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="SwiftUnicodePicker" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="SwiftUnicodePicker" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About SwiftUnicodePicker" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" hidden="YES" enabled="NO" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem isSeparatorItem="YES" hidden="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide SwiftUnicodePicker" keyEquivalent="h" id="Olw-nP-bQN" userLabel="Hide SwiftUnicodePicker">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit SwiftUnicodePicker" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Show" id="H8h-7b-M4v" userLabel="Show">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Show" autoenablesItems="NO" id="HyV-fh-RgO">
+                                    <items>
+                                        <menuItem title="Show Operators" keyEquivalent="o" id="snW-S8-Cw5">
+                                            <connections>
+                                                <action selector="showOperators:" target="N1Q-sw-Yve" id="Gmi-6Q-8HV"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show Identifiers" keyEquivalent="i" id="1UK-8n-QPP">
+                                            <connections>
+                                                <action selector="showIdentifiers:" target="N1Q-sw-Yve" id="xKb-2G-MNw"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Buttons" id="5QF-Oa-p0T">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Buttons" autoenablesItems="NO" id="W48-6f-4Dl">
+                                    <items>
+                                        <menuItem title="Click on Button 0" keyEquivalent="0" id="dRJ-4n-Yzg">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="fKa-Is-7yp"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 0" alternate="YES" keyEquivalent="0" id="6dh-zS-Vam">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="wbe-KQ-sa8"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 1" tag="1" keyEquivalent="1" id="kN4-yr-vpv">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="PAk-Xo-7U4"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 1" tag="1" alternate="YES" keyEquivalent="1" id="gi3-RE-kg9">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="Tef-2z-nwB"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 2" tag="2" keyEquivalent="2" id="VeD-Z1-GEC">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="Qzp-4K-n8s"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 2" tag="2" alternate="YES" keyEquivalent="2" id="Khm-0V-IaA">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="VrQ-a9-O0U"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 3" tag="3" keyEquivalent="3" id="m7X-k5-ImP">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="pUt-iJ-HUk"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 3" tag="3" alternate="YES" keyEquivalent="3" id="apE-vM-1SC">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TKg-c1-5wQ"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 4" tag="4" keyEquivalent="4" id="d14-Lw-b88">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="5cS-7p-0Le"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 4" tag="4" alternate="YES" keyEquivalent="4" id="kwn-uX-Sak">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="c3R-ot-mBI"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 5" tag="5" keyEquivalent="5" id="yqs-Oy-oyC">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="5iY-eE-CaP"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 5" tag="5" alternate="YES" keyEquivalent="5" id="71V-Xz-Epv">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TG5-gO-ihh"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 6" tag="6" keyEquivalent="6" id="UAh-Um-gwW">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="smm-FS-WvV"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 6" tag="6" alternate="YES" keyEquivalent="6" id="p0x-8u-czn">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="lbr-x8-u9N"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 7" tag="7" keyEquivalent="7" id="uoa-LE-eWy">
+                                            <connections>
+                                                <action selector="clickButton:" target="N1Q-sw-Yve" id="2GW-QG-UtE"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 7" tag="7" alternate="YES" keyEquivalent="7" id="v05-B3-oyd">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="bBL-NK-ykz"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 8" tag="8" keyEquivalent="8" id="dbb-zC-4HB">
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="eNM-qT-Ekl"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 8" tag="8" alternate="YES" keyEquivalent="8" id="2GG-CW-G0S">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                        </menuItem>
+                                        <menuItem title="Click on Button 9" tag="9" keyEquivalent="9" id="wCr-JA-lWi">
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="Ovr-t7-mA9"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 9" tag="9" alternate="YES" keyEquivalent="9" id="GBX-Px-ta7">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Window" id="aUF-d1-5bR">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
+                                    <items>
+                                        <menuItem title="Minimize" keyEquivalent="m" id="OY7-WF-poV">
+                                            <connections>
+                                                <action selector="performMiniaturize:" target="Ady-hI-5gd" id="VwT-WD-YPe"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Zoom" id="R4o-n2-Eq4">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="performZoom:" target="Ady-hI-5gd" id="DIl-cC-cCs"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="eu3-7i-yIM"/>
+                                        <menuItem title="Bring All to Front" id="LE2-aR-0XJ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="arrangeInFront:" target="Ady-hI-5gd" id="DRN-fu-gQh"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="SwiftUnicodePicker Help" keyEquivalent="?" id="FKE-Sm-Kum" userLabel="Help">
+                                            <connections>
+                                                <action selector="showHelp:" target="Voe-Tx-rLC" id="Cb7-tZ-hHk"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Source Code" id="XFj-sD-fsb" userLabel="Source code">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="showSourceCode:" target="Voe-Tx-rLC" id="68c-zO-GpG"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SwiftUnicodePicker" customModuleProvider="target">
+                    <connections>
+                        <outlet property="theModel" destination="N1Q-sw-Yve" id="pml-5z-fTe"/>
+                    </connections>
+                </customObject>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="N1Q-sw-Yve" userLabel="MyModel" customClass="MyModel" customModule="SwiftUnicodePicker" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
