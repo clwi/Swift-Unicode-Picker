@@ -32,7 +32,7 @@ When you click on a character, the character is transferred to the clipboard. If
 
 There is a Buttons menu, here without and with the option key pressed.
 
-![](./Manual/Bilder/ButtonMenu.tif)                ![](./Manual/Bilder/ButtonOptMenu.tif)
+![](./Manual/Bilder/ButtonMenu.tif)      ![](./Manual/Bilder/ButtonOptMenu.tif)
 
 At the bottom of the window there are ten programmable buttons in two rows. 
 
