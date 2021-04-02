@@ -62,7 +62,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
             backing: .buffered, defer: false)
         theModel.window = window
-        theModel.showOperatorsX()
+        if UserDefaults.standard.bool(forKey: "SelectedView") {
+            theModel.showOperatorsX()
+        }
+        else {
+            theModel.showIdentifiersX()
+        }
+
         window.isReleasedWhenClosed = false
         window.center()
         window.title = "Swift Unicode Picker"

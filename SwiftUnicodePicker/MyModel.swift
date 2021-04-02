@@ -144,6 +144,7 @@ class MyModel: NSObject, ObservableObject {
      func showOperatorsX() {
         window.subtitle = "Operators"
         chooseOp = true
+        UserDefaults.standard.set(chooseOp, forKey: "SelectedView")
         dataSource = operatorDataSource
         clickAction = ClickAction.pasteBack
         currentlyChangedButtonNr = -1
@@ -163,6 +164,7 @@ class MyModel: NSObject, ObservableObject {
      func showIdentifiersX() {
         window.subtitle = "Identifiers"
         chooseOp = false
+        UserDefaults.standard.set(chooseOp, forKey: "SelectedView")
         dataSource = identifierDataSource
         clickAction = ClickAction.pasteBack
         currentlyChangedButtonNr = -1
