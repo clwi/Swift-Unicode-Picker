@@ -132,7 +132,7 @@ let identifierHeadSlices: [cpSlice] = [
     (0x13000, 0x1342e), // Hieroglyphs
     (0x11580, 0x115dd), // Siddham
     (0x12000, 0x12399), // Cuneiform
-    (0x20A0, 0x20bf), // Currency symbols
+    //(0x20A0, 0x20bf), // Currency symbols
 
     //    (0x20000, 0x2a6df), (0x2a700, 0x2ebe0),
     //    (0x2f800, 0x2fa1f), (0x30000, 0x3134f),

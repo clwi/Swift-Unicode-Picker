@@ -152,7 +152,7 @@ struct RubrikRad: View {
     var body: some View {
         HStack{
             Spacer()
-            Text(model.dataSource.blockTable[row.segment].title)
+            Text(row.segment < model.dataSource.blockTable.count ? model.dataSource.blockTable[row.segment].title : "")
                 .font(.title3)
                 .foregroundColor(.gray)
                 .padding(.top)
