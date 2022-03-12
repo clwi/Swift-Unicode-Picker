@@ -214,17 +214,16 @@ struct CharButton: View {
     var body: some View {
         Button(model.buttonString(buttonNr),
                action: {
-                if model.clickAction == .pasteBack {
-                    let s = model.buttonStrings[buttonNr]
-                    if s.count > 0 {
-                        model.performPasteBack(s)
-                    }
+            if model.clickAction == .pasteBack {
+                let s = model.buttonStrings[buttonNr]
+                if s.count > 0 {
+                    model.performPasteBack(s)
                 }
-                else  {
-                    model.clickAction = .pasteBack
-                }
-               }
-        )
+            }
+            else  {
+                model.clickAction = .pasteBack
+            }
+        })
         .frame(minWidth: 50.0)
         .controlSize(ControlSize.large)
         .font(Font.system(size: 16))
