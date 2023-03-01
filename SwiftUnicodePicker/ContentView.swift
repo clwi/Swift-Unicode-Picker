@@ -30,8 +30,6 @@
 import SwiftUI
 
 // some useful constants
-let lightRed = Color(red: 1.0, green: 0.9, blue: 0.9, opacity: 1.0)
-let lightBlue = Color(red: 0.92, green: 0.95, blue: 1.0, opacity: 1.0)
 let rubrikrad = UnicodeTableRow(0,0, [48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70])
 
 
@@ -81,15 +79,17 @@ struct ContentView_Previews: PreviewProvider {
 
 struct UChar: View {
     @EnvironmentObject var model: MyModel
+
     let iChar: UInt32
     let uChar: String
+    let row: UnicodeTableRow
     var body: some View {
         Text(uChar)
             .font(.title3)
             .multilineTextAlignment(.leading)
             .frame(width: 25.0)
-            .background( model.dataSource.specialCodepoints[iChar] != nil ? lightRed :
-                            model.dataSource.otherCharacters.contains(iChar) ? lightBlue :
+            .background( model.dataSource.specialCodepoints[iChar] != nil ? Color("lightRed") :
+                            (model.dataSource.otherCharacters.contains(iChar) && row.base>0) ? Color("lightBlue") :
                             Color(white: 1.0, opacity: 0.0)
             )
             .onTapGesture {
@@ -104,9 +104,10 @@ struct UChar: View {
             }
             .help(model.toolTip(iChar))
     }
-    init(_ iChar: UInt32) {
+    init(_ iChar: UInt32 ,_ row: UnicodeTableRow) {
         self.iChar = iChar
         uChar = String(Unicode.Scalar(iChar)!)
+        self.row = row
     }
 }
 
@@ -116,13 +117,13 @@ struct QuarterLine: View {
     var body: some View {
         HStack{
             Spacer()
-            UChar(row.chars[base+0])
+            UChar(row.chars[base+0],row)
             Spacer()
-            UChar(row.chars[base+1])
+            UChar(row.chars[base+1],row)
             Spacer()
-            UChar(row.chars[base+2])
+            UChar(row.chars[base+2],row)
             Spacer()
-            UChar(row.chars[base+3])
+            UChar(row.chars[base+3],row)
         }
     }
     init(_ base: Int, _ row: UnicodeTableRow) {

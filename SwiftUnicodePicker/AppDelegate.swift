@@ -42,7 +42,7 @@ func handler(hcr: EventHandlerCallRef?, er: EventRef?, data: UnsafeMutableRawPoi
         }
     }
     NSWorkspace.shared.openApplication(at: URL(fileURLWithPath:appPath), configuration: NSWorkspace.OpenConfiguration())
-    return 0
+    return CallNextEventHandler(hcr, er);
 }
 
 

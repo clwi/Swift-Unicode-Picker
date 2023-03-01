@@ -51,8 +51,6 @@ class MyModel: NSObject, ObservableObject {
     var chooseOp: Bool = true
     var window: NSWindow!
 
-    
-
     func defButton(_ str: String) {
         buttonStrings[currentlyChangedButtonNr] = str
         UserDefaults.standard.set(buttonStrings, forKey: chooseOp ? "Operators" : "Identifiers" )
