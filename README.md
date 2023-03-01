@@ -6,7 +6,7 @@ Swift Unicode Picker is a MacOS app to simplify choosing exotic operator and ide
 
 ## The hot key
 
-If the program is running in the background, it can be activated with the hot key ^⇧U (control-shift-U). Activating with the hot key also opens up the ability to paste back in apps.
+If the program is running in the background, it can be activated with the hot key ^⇧U (control-shift-U).
 
 ## The character table
 
@@ -26,7 +26,7 @@ If the background is light blue, the character cannot be used as first character
 
 ![](./Manual/Bilder/char3.png)
 
-When you click on a character, the character is transferred to the clipboard. If the program had been activated with the hot key, the character is also pasted back in the calling app.
+When you click on a character, the character is transferred to the clipboard.
 
 ## The buttons
 
@@ -38,4 +38,4 @@ At the bottom of the window there are ten programmable buttons in two rows.
 
 ![](./Manual/Bilder/buttons.png) 
 
-When you select Define Button x, the other buttons are disabled and you can now klick on the characters in the list that you want to make up the button string. When you are ready you click on the button and the definition is ready. Now you can klick on the buttons to paste back their strings in the same way as you can klick on the characters.
+When you select Define Button x, the other buttons are disabled and you can now klick on the characters in the list that you want to make up the button string. When you are ready you click on the button and the definition is ready. Now you can klick on the buttons to transferr their strings to the clipboard in the same way as you can klick on the characters.

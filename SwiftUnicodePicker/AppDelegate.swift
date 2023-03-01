@@ -71,7 +71,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         window.isReleasedWhenClosed = false
         window.center()
-        window.title = "Swift Unicode Picker"
+        window.title = "Unicode Picker for Swift"
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: ContentView(theModel))
         window.makeKeyAndOrderFront(nil)

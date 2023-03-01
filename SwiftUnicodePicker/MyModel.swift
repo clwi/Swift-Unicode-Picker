@@ -105,31 +105,7 @@ class MyModel: NSObject, ObservableObject {
         pb.setString(string, forType:NSPasteboard.PasteboardType.string)
         let pidApp = NSRunningApplication.current;
         pidApp.hide()
-
-        // paste on next app
-        self.perform(#selector(postToPidCommand), with: nil, afterDelay: 0.1)
-
         return;
-    }
-
-    @objc   func postToPidCommand() {
-        let virtualKey: CGKeyCode = 9 // kVK_ANSI_V
-        let source = CGEventSource(stateID: CGEventSourceStateID.combinedSessionState);
-        if source != nil
-        {
-            let copyDownKeyboardEvent = CGEvent(keyboardEventSource: source, virtualKey: virtualKey, keyDown: true); // kVK_ANSI_C
-            if let cdke = copyDownKeyboardEvent
-            {
-                cdke.flags = CGEventFlags.maskCommand;
-                let copyUpKeyboardEvent = CGEvent(keyboardEventSource: source, virtualKey: virtualKey, keyDown: false);
-                if let cuke = copyUpKeyboardEvent
-                {
-                    cdke.postToPid(pid);
-                    cuke.postToPid(pid);
-                }
-            }
-        }
-        pid = 0
     }
 
 //    UserDefaults.standard.set("mynameisben", forKey: "username")
@@ -198,3 +174,4 @@ class MyModel: NSObject, ObservableObject {
         }
     }
 }
+

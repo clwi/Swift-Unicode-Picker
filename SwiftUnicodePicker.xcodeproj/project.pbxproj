@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FAB7AA0260D01A50069BBC8 /* SwiftUnicodePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUnicodePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAB7AA0260D01A50069BBC8 /* UnicodePicker for Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnicodePicker for Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAB7AA3260D01A50069BBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FAB7AA5260D01A50069BBC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FAB7AA7260D01A70069BBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		3FAB7AA1260D01A50069BBC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FAB7AA0260D01A50069BBC8 /* SwiftUnicodePicker.app */,
+				3FAB7AA0260D01A50069BBC8 /* UnicodePicker for Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FAB7A9F260D01A50069BBC8 /* SwiftUnicodePicker */ = {
+		3FAB7A9F260D01A50069BBC8 /* UnicodePicker for Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FAB7AB3260D01A70069BBC8 /* Build configuration list for PBXNativeTarget "SwiftUnicodePicker" */;
+			buildConfigurationList = 3FAB7AB3260D01A70069BBC8 /* Build configuration list for PBXNativeTarget "UnicodePicker for Swift" */;
 			buildPhases = (
 				3FAB7A9C260D01A50069BBC8 /* Sources */,
 				3FAB7A9D260D01A50069BBC8 /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUnicodePicker;
+			name = "UnicodePicker for Swift";
 			productName = SwiftUnicodePicker;
-			productReference = 3FAB7AA0260D01A50069BBC8 /* SwiftUnicodePicker.app */;
+			productReference = 3FAB7AA0260D01A50069BBC8 /* UnicodePicker for Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FAB7A9F260D01A50069BBC8 /* SwiftUnicodePicker */,
+				3FAB7A9F260D01A50069BBC8 /* UnicodePicker for Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FAB7AB3260D01A70069BBC8 /* Build configuration list for PBXNativeTarget "SwiftUnicodePicker" */ = {
+		3FAB7AB3260D01A70069BBC8 /* Build configuration list for PBXNativeTarget "UnicodePicker for Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FAB7AB4260D01A70069BBC8 /* Debug */,
