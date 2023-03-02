@@ -103,8 +103,6 @@ class MyModel: NSObject, ObservableObject {
         let pb = NSPasteboard.general
         pb.declareTypes([NSPasteboard.PasteboardType.string], owner:nil)
         pb.setString(string, forType:NSPasteboard.PasteboardType.string)
-        let pidApp = NSRunningApplication.current;
-        pidApp.hide()
         return;
     }
 
