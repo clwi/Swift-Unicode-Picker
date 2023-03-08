@@ -106,7 +106,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @IBAction func showSourceCode(_ sender: NSMenuItem) {
-        NSWorkspace.shared.open(URL(string: "https://github.com/clwi/Swift-Unicode-Picker")!)
+        NSWorkspace.shared.open(URL(string: "https://github.com/clwi/Swift-Unicode-Picker/tree/AppStore")!)
     }
 }
 
