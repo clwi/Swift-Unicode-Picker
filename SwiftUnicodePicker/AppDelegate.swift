@@ -79,12 +79,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     }
 
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {true}
+
     func fetchHotKeyDef()->(keyCode:UInt32, keyFlags: UInt32) {
         let code = UserDefaults.standard.integer(forKey: "HotKeyCode")
         let flags = UserDefaults.standard.integer(forKey: "HotKeyFlags")
         return (keyCode: UInt32(code != 0 ? code : kVK_ANSI_U),
                 keyFlags: UInt32(flags != 0 ? flags : controlKey | shiftKey)) // Default = ^⇧U
     }
+
+    var hotKeyRef: EventHotKeyRef?
 
     func installHotKeyHandler() {
 
@@ -96,9 +100,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         InstallEventHandler(GetApplicationEventTarget(), handler,  1, &eventType, nil, nil )
 
-        var hotKeyRef: EventHotKeyRef?
-
         RegisterEventHotKey(hotKeyDef.keyCode, hotKeyDef.keyFlags, eventId, GetApplicationEventTarget(), 0, &hotKeyRef);
+    }
+
+    func applicationWillTerminate(_ notification:Notification) {
+        UnregisterEventHotKey(hotKeyRef!)
     }
 
     @IBAction func showHelp(_ sender: NSMenuItem) {
