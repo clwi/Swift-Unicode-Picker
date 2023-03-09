@@ -108,7 +108,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @IBAction func showHelp(_ sender: NSMenuItem) {
-        NSWorkspace.shared.open(URL(string: "http://www.dromeda.se/SwiftUnicodePicker/Manual/")!)
+        NSWorkspace.shared.open(URL(string: "http://www.dromeda.se/SUP/AppStore/Manual/")!)
     }
 
     @IBAction func showSourceCode(_ sender: NSMenuItem) {

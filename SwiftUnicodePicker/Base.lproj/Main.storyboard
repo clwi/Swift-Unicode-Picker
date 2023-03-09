@@ -212,7 +212,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="UnicodePicker for Swift Help" keyEquivalent="?" id="FKE-Sm-Kum" userLabel="Help">
+                                        <menuItem title="UnicodePicker for Swift Guide" keyEquivalent="?" id="FKE-Sm-Kum" userLabel="Help">
                                             <connections>
                                                 <action selector="showHelp:" target="Voe-Tx-rLC" id="Cb7-tZ-hHk"/>
                                             </connections>
