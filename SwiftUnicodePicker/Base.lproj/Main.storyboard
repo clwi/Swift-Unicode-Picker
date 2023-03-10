@@ -81,21 +81,9 @@
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="fKa-Is-7yp"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 0" alternate="YES" keyEquivalent="0" id="6dh-zS-Vam">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="wbe-KQ-sa8"/>
-                                            </connections>
-                                        </menuItem>
                                         <menuItem title="Click on Button 1" tag="1" keyEquivalent="1" id="kN4-yr-vpv">
                                             <connections>
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="PAk-Xo-7U4"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Define Button 1" tag="1" alternate="YES" keyEquivalent="1" id="gi3-RE-kg9">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="Tef-2z-nwB"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Click on Button 2" tag="2" keyEquivalent="2" id="VeD-Z1-GEC">
@@ -103,21 +91,9 @@
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="Qzp-4K-n8s"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 2" tag="2" alternate="YES" keyEquivalent="2" id="Khm-0V-IaA">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="VrQ-a9-O0U"/>
-                                            </connections>
-                                        </menuItem>
                                         <menuItem title="Click on Button 3" tag="3" keyEquivalent="3" id="m7X-k5-ImP">
                                             <connections>
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="pUt-iJ-HUk"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Define Button 3" tag="3" alternate="YES" keyEquivalent="3" id="apE-vM-1SC">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TKg-c1-5wQ"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Click on Button 4" tag="4" keyEquivalent="4" id="d14-Lw-b88">
@@ -125,21 +101,9 @@
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="5cS-7p-0Le"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 4" tag="4" alternate="YES" keyEquivalent="4" id="kwn-uX-Sak">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="c3R-ot-mBI"/>
-                                            </connections>
-                                        </menuItem>
                                         <menuItem title="Click on Button 5" tag="5" keyEquivalent="5" id="yqs-Oy-oyC">
                                             <connections>
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="5iY-eE-CaP"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Define Button 5" tag="5" alternate="YES" keyEquivalent="5" id="71V-Xz-Epv">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TG5-gO-ihh"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Click on Button 6" tag="6" keyEquivalent="6" id="UAh-Um-gwW">
@@ -147,21 +111,9 @@
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="smm-FS-WvV"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 6" tag="6" alternate="YES" keyEquivalent="6" id="p0x-8u-czn">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="lbr-x8-u9N"/>
-                                            </connections>
-                                        </menuItem>
                                         <menuItem title="Click on Button 7" tag="7" keyEquivalent="7" id="uoa-LE-eWy">
                                             <connections>
                                                 <action selector="clickButton:" target="N1Q-sw-Yve" id="2GW-QG-UtE"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Define Button 7" tag="7" alternate="YES" keyEquivalent="7" id="v05-B3-oyd">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="bBL-NK-ykz"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem title="Click on Button 8" tag="8" keyEquivalent="8" id="dbb-zC-4HB">
@@ -169,15 +121,64 @@
                                                 <action selector="defineButton:" target="N1Q-sw-Yve" id="eNM-qT-Ekl"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 8" tag="8" alternate="YES" keyEquivalent="8" id="2GG-CW-G0S">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                        </menuItem>
                                         <menuItem title="Click on Button 9" tag="9" keyEquivalent="9" id="wCr-JA-lWi">
                                             <connections>
                                                 <action selector="defineButton:" target="N1Q-sw-Yve" id="Ovr-t7-mA9"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Define Button 9" tag="9" alternate="YES" keyEquivalent="9" id="GBX-Px-ta7">
+                                        <menuItem isSeparatorItem="YES" id="21S-Ef-SCg"/>
+                                        <menuItem title="Define Button 0" keyEquivalent="0" id="6dh-zS-Vam">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="wbe-KQ-sa8"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 1" tag="1" keyEquivalent="1" id="gi3-RE-kg9">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="Tef-2z-nwB"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 2" tag="2" keyEquivalent="2" id="Khm-0V-IaA">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="VrQ-a9-O0U"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 3" tag="3" keyEquivalent="3" id="apE-vM-1SC">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TKg-c1-5wQ"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 4" tag="4" keyEquivalent="4" id="kwn-uX-Sak">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="c3R-ot-mBI"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 5" tag="5" keyEquivalent="5" id="71V-Xz-Epv">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="TG5-gO-ihh"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 6" tag="6" keyEquivalent="6" id="p0x-8u-czn">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="lbr-x8-u9N"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 7" tag="7" keyEquivalent="7" id="v05-B3-oyd">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="defineButton:" target="N1Q-sw-Yve" id="bBL-NK-ykz"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Define Button 8" tag="8" keyEquivalent="8" id="2GG-CW-G0S">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                        </menuItem>
+                                        <menuItem title="Define Button 9" tag="9" keyEquivalent="9" id="GBX-Px-ta7">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                         </menuItem>
                                     </items>
