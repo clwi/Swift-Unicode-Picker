@@ -30,9 +30,9 @@ When you click on a character, the character is transferred to the clipboard.
 
 ## The buttons
 
-There is a Buttons menu, here without and with the option key pressed.
+There is a Buttons menud.
 
-![](./Manual/Bilder/ButtonMenu.png)      ![](./Manual/Bilder/ButtonOptMenu.png)
+![](./Manual/Bilder/ButtonMenuAppStore.png)
 
 At the bottom of the window there are ten programmable buttons in two rows. 
 
